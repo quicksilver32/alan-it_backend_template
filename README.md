@@ -8,3 +8,5 @@
 `python manage.py migrate`\
 *Запуск сервера выполняется при активном виртуальном окружении:*\
 `python manage.py runserver 8080`
+
+Необходимо в `api/views` написать код, получающий информацию из `short.csv` и передающий её на фронт, посредством метода `JsonResponse(your_object)`
